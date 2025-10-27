@@ -1,0 +1,6 @@
+{
+  "BOT_TOKEN": "your_discord_bot_token_here",
+  "CLIENT_ID": "your_discord_client_id_here",
+  "OWNER_GUILD_ID": "your_owner_guild_id_here",
+  "DEVELOPER_ID": "your_developer_id_here"
+}

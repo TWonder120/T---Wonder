@@ -1,0 +1,21 @@
+{
+  "name": "wonder-twitter-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for Twitter-like tweet posting and support.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "hosted": "node startHostedBot.js",
+    "test": "node testHostedBot.js",
+    "dev": "node index.js",
+    "setup-db": "node setupDatabase.js"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^1.7.0",
+    "@discordjs/voice": "^0.18.0",
+    "canvas": "^2.11.2",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
+}

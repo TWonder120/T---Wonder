@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: wonder-twitter-bot
+    env: node
+    plan: free
+    buildCommand: npm install && npm run setup-db
+    startCommand: npm start
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: BOT_TOKEN
+        sync: false
+      - key: CLIENT_ID
+        sync: false
+      - key: OWNER_GUILD_ID
+        sync: false
+      - key: DEVELOPER_ID
+        sync: false
